@@ -1,0 +1,150 @@
+html {
+	font-family: 'Yusei Magic', sans-serif;
+}
+
+body {
+	margin: 0px;
+	letter-spacing: 1px;
+	background-color: #C5F9C7
+}
+
+.header {
+	background-color: #5FFB67;
+	padding: 28px;
+	letter-spacing: 3px;
+	padding-left: 10%;
+}
+
+#head-title {
+	font-size: 68px;
+}
+
+.title-tagline {
+	padding-left: 13%;
+}
+
+#main-container {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border: solid green 4px;
+	margin: 20px 15% 20px 15%;
+	border-radius: 7px;
+	padding: 18px;
+}
+
+#priority-box {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+#non-priority-box {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	border: solid #46F84E 2px;
+	padding: 18px;
+	border-radius: 7px;
+	flex-direction: column;
+	width: 90%;
+}
+
+#non-priority-list {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	list-style-type: none;
+	padding: 0;
+}
+
+.item {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	border-left: 5px solid #A3E8A6;
+	padding: 10px;
+	padding-left: 25px;
+	margin:20px;
+}
+
+.btn {
+/*	display: flex;
+*/	background-color: #A3E8A6;
+	border-radius: 7px;
+	cursor: pointer;
+	padding: 6px 14px;
+	font-size: 16px;
+	box-shadow: 1px 1px 3px 1px;
+}
+
+.btn:hover {
+	background-color: #46BE54;
+}
+
+.work-name {
+	font-size: 20px;
+}
+
+.item:hover {
+	border-color: #46BE54;
+}
+
+#add-container {
+	display: flex;
+/*	flex-direction: row;*/
+	padding: 10px;
+	width: 90%;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#add-item-field {
+	display: block;
+	/*width: 90%;*/
+	float: left;
+	padding: 9px;
+	border: 2px #46BE54 solid;
+	border-radius: 3px;
+	width: 300px;
+}
+
+#add-item-field:hover {
+	border: green solid;
+}
+
+#add-container button{
+	display: inline-block;
+	float: right;
+	width: 100px;
+	border-radius: 3px;
+}
+
+#footer {
+	position: relative;
+	top: 228px;
+	left:0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+/*	flex-direction: column;*/
+	background-color: rgba(95, 251, 103, 0.5);
+	padding: 17px;
+	justify-content: center;
+/*	align-items: flex-end;
+	align-content: flex-end;*/
+}
+
+/*#footer div{
+	position: absolute;
+	bottom: 0px;
+	left:0px;
+	right: 0px;
+	display: flex;
+	align-self:stretch;
+	align-content: flex-end;
+}*/
+
